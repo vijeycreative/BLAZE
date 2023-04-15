@@ -469,7 +469,7 @@ def blaze(v_0 = None, v_t = None, h_apg = None, t_apg = None, t_diff = None):
 
     results = [v_0, v_t, v_end, t_0, t_apg, t_tot, t_diff, h_apg]
     print_results(results)
-    fig, axs = plt.subplots(1, 1, figsize=(12, 12))
+    fig, axs = plt.subplots(1, 1, figsize=(10, 10))
     plot_corr_graph(axs)
     plot_tdiff(v_t, t_diff, axs)
     plot_tapg(v_0, t_apg, axs)
