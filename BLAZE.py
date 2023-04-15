@@ -147,13 +147,13 @@ def draw_v0_vt(v_0, v_t, axis):
     axis.plot([v_0]*100, np.linspace(0, v_t, 100), color="springgreen", linewidth = 6.0, zorder=2)
     axis.scatter([v_0], [v_t], s=250, c="limegreen", edgecolors="black", linewidths=2, zorder=3)
 
-    xy1 = (v_0+8, 7.5)
+    xy1 = (v_0+10, 7.5)
     offsetbox = TextArea(f"{np.round(v_0, 2)}", textprops=dict(color="limegreen", size=18, weight='bold'))
     ab1 = AnnotationBbox(offsetbox, xy1,
                         bboxprops=dict(color='white',edgecolor='black',linewidth=2.0))
     axis.add_artist(ab1)
 
-    xy2 = (22.5, v_t+2)
+    xy2 = (25, v_t+3)
     offsetbox = TextArea(f"{np.round(v_t, 2)}", textprops=dict(color="limegreen", size=18, weight='bold'))
     ab2 = AnnotationBbox(offsetbox, xy2,
                         bboxprops=dict(color='white',edgecolor='black',linewidth=2.0))
