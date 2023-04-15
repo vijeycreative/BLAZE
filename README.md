@@ -12,11 +12,11 @@ It's important to note that the findings presented here are also applicable to b
 
 The BLAZE program (also this [graph](https://www.et.byu.edu/~wheeler/benchtop/pix/apogee.pdf)) establishes a relationship between five key metrics:
 
-1.  Terminal Velocity [$v_t$] - For ballistic flights, this value is consistent throughout the entire flight. For recovery-deployment flights, it only applies during the ascent phase. Regardless, this value should remain constant from one flight to another, meaning it only needs to be determined once for a specific rocket.
-2.  Burnout Velocity [$v_0$] - This variable may change between flights unless the water quantity and pressure are carefully controlled and set to specific values.
-3.  Apogee Height [$h_{ap}$] - This can be independently measured using an altitude sensor inside the rocket or an inclinometer or theodolite.
-4.  Time to Apogee [$t_{ap}$] - This value should be obtainable for every rocket flight. (Note that it is easier to identify the apogee point when standing at a reasonable distance from the launcher.)
-5.  Time Difference [$\Delta t = t_{end} - 2t_{ap}$] - This value can be collected _only_ during a ballistic flight. Both $t_{ap}$ and $t_{end}$ can be gathered during the flight using a stopwatch with a multi-lap storage feature or by recording the flight with a video camera for later analysis.
+1.  Terminal Velocity, $v_t$ - For ballistic flights, this value is consistent throughout the entire flight. For recovery-deployment flights, it only applies during the ascent phase. Regardless, this value should remain constant from one flight to another, meaning it only needs to be determined once for a specific rocket.
+2.  Burnout Velocity, $v_0$ - This variable may change between flights unless the water quantity and pressure are carefully controlled and set to specific values.
+3.  Apogee Height, $h_{ap}$ - This can be independently measured using an altitude sensor inside the rocket or an inclinometer or theodolite.
+4.  Time to Apogee, $t_{ap}$ - This value should be obtainable for every rocket flight. (Note that it is easier to identify the apogee point when standing at a reasonable distance from the launcher.)
+5.  Time Difference, $\Delta t = t_{end} - 2t_{ap}$ - This value can be collected _only_ during a ballistic flight. Both $t_{ap}$ and $t_{end}$ can be gathered during the flight using a stopwatch with a multi-lap storage feature or by recording the flight with a video camera for later analysis.
 
 **The crucial point is that knowing just two of the five metrics allows you to calculate the remaining three.** This implies that meticulously documented flight times for a ballistic flight (without a recovery mechanism) can provide the terminal velocity, burnout velocity, and apogee height.
 
