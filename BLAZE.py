@@ -300,8 +300,8 @@ def plot_corr_graph(axis):
     axis.set_ylim(5, 70)
     #axis.grid()
     axis.legend([line1, line2, line3], ["$h_{ap} (m)$", "$t_{ap} (s)$", "$\Delta t (s)$"])
-    axis.set_xticks(np.arange(20, 140, 10), size = 14)
-    axis.set_yticks(np.arange(10, 70, 5), size = 14);
+    axis.set_xticks(np.arange(20, 140, 10), np.arange(20, 140, 10).tolist(), size = 14)
+    axis.set_yticks(np.arange(10, 70, 5), np.arange(10, 70, 5).tolist(), size = 14);
 
 def print_results(result):
     v_0, v_t, v_end, t_0, t_apg, t_end, t_diff, h_apg = result
